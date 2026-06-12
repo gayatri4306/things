@@ -1,4 +1,6 @@
 import { Product } from "../types";
+// @ts-ignore
+import nebulaSunsetLamp from "../assets/images/nebula_sunset_lamp_1781254532182.jpg";
 
 export const HOSTEL_PRODUCTS: Product[] = [
   {
@@ -91,7 +93,7 @@ export const HOSTEL_PRODUCTS: Product[] = [
     originalPrice: 24.99,
     rating: 4.8,
     reviewsCount: 198,
-    imageUrl: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600",
+    imageUrl: nebulaSunsetLamp,
     gender: "girls",
     weekendOffer: false,
     offerPrice: 18.69,
