@@ -1,0 +1,6 @@
+{
+  "name": "DormAura",
+  "description": "A premium and trustworthy hostel essentials marketplace for boys and girls, featuring automatic voice search, interactive assistant chatbot, and reliable weekend deals.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
