@@ -282,7 +282,7 @@ export const HOSTEL_PRODUCTS: Product[] = [
     originalPrice: 54.99,
     rating: 4.9,
     reviewsCount: 114,
-    imageUrl: "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?auto=format&fit=crop&q=80&w=600",
+    imageUrl: "https://m.media-amazon.com/images/I/81KAVzpzA4L._AC_UF1000%2C1000_QL80_.jpg",
     gender: "unisex",
     weekendOffer: true,
     offerPrice: 38.24,

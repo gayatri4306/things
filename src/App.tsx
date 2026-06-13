@@ -524,7 +524,7 @@ export default function App() {
                         src={p.imageUrl} 
                         alt={p.name} 
                         className={`w-full h-full transition-all duration-500 group-hover:scale-105 ${
-                          p.imageUrl.includes("o1t48l") 
+                          p.imageUrl.includes("o1t48l") || p.imageUrl.includes("81KAVzpzA4L")
                             ? "object-contain p-2 bg-neutral-50" 
                             : "object-cover"
                         }`}
@@ -1016,7 +1016,7 @@ export default function App() {
                           src={item.product.imageUrl} 
                           alt={item.product.name}
                           className={`w-16 h-16 rounded bg-neutral-100 shrink-0 border border-black/5 ${
-                            item.product.imageUrl.includes("o1t48l") 
+                            item.product.imageUrl.includes("o1t48l") || item.product.imageUrl.includes("81KAVzpzA4L")
                               ? "object-contain p-1" 
                               : "object-cover"
                           }`}
